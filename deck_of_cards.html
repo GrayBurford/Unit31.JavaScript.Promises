@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deck of Cards!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mt-5 text-center">
+        <h1>Part 2: Deck of Cards</h1>
+    </div>
+    
+    <div id="button-div" class="text-center mt-5">
+        <button id="button" class="btn-lg btn-dark">Draw card!</button>
+    </div>
+
+    <div class="text-center mt-2">Cards remaining: <span id="remaining" class="bg-warning">52</span></div>
+
+    <div class="container mt-5">
+        <h1 id="title" class="card-title text-primary"><strong>ACE OF SPADES</strong></h1>
+        <div class="card text-primary" style="width: 400px;">
+            <img id="img" src="https://deckofcardsapi.com/static/img/AS.png" class="card-img" alt="card-img-overlay">
+        </div>
+    </div>
+
+    
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="deck_of_cards.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
